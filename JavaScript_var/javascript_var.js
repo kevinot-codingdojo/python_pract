@@ -1,0 +1,11 @@
+var n1 = 1;
+var n2 = 3;
+var n3 = 5;
+var n4 = 7;
+var s1 = "The earthquake will change their minds.";
+var s2 = "Sleep language, it wakes you up.";
+var s3 = "There are more beef brains, etc.";
+var b1_nachosAreEasy = true;
+var b2_asparagusIsCandy = false;
+var u1;
+console.log(s3);

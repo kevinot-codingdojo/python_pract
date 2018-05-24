@@ -1,0 +1,237 @@
+body{
+  color: white;
+  font-family: "MS Reference Sans Serif", Helvetica, sans-serif;
+}
+
+h1{
+  font-size: x-large;
+  text-transform: uppercase;
+  margin:0;
+  padding:0;
+  display:inline;
+}
+
+.header{
+  vertical-align: bottom;
+  padding: 10px;
+}
+
+h2{
+  font-size: large;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-top: -15px;
+  margin-right: -15px;
+  vertical-align: text-top;
+}
+
+span.wrench-align {
+    vertical-align:-8px;
+}
+
+h3{
+ font-size: large;
+ text-transform: uppercase;
+ color: black;
+ padding-bottom: 10px;
+}
+
+.wrapper{
+  max-width: 970px;
+  background-color: navy;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin-bottom: 2px;
+}
+
+.header-links{
+  font-size: small;
+  margin-right: 5px;
+  margin-bottom:15px;
+  padding-top: 15px;
+  vertical-align: bottom;
+  display: inline;
+}
+
+ul{
+  list-style-type: none;
+  width: 75px;
+  margin-right: 20px;
+  vertical-align: bottom;
+  display:inline;
+}
+
+li{
+  display: inline;
+  vertical-align: text-bottom;
+  margin-left: 75px;
+}
+
+.body-wrap{
+  background-color: white;
+  max-width: 950px;
+  padding: 15px;
+  overflow:hidden;
+}
+
+p.subhead2{
+  font-family: sans-serif;
+  font-size: 110%;
+  text-align: justify;
+  color: black;
+  text-transform: uppercase;
+}
+
+.body-r1c12{
+  width: 238px;
+  height: 160px;
+  padding:30px;
+  margin-top: 15px;
+  margin-right: 15px;
+  padding-bottom: 30px;
+  font-size: x-small;
+  background-color: mediumblue;
+  display: inline-block;
+  vertical-align: top;
+  overflow:hidden;
+}
+
+.subheadwrench{
+  margin: 0px 0px 0px -10px;
+  display: inline-block;
+}
+
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width:125px;
+  height: 40px;
+  background: linear-gradient(cornflowerblue, mediumblue);
+  border-radius: 4px;
+  border-color: navy;
+  border-width:thin;
+  font-size: small;
+  vertical-align: bottom;
+  color: white;
+}
+
+form{
+vertical-align: bottom;
+}
+
+.body-r1c3{
+  width: 238px;
+  height: 160px;
+  padding:30px;
+  margin-top: 15px;
+  font-size: x-small;
+  background-color: mediumblue;
+  display: inline-block;
+  vertical-align: top;
+  overflow:hidden;
+}
+
+.body-r2c12{
+  width: 300px;
+  height: 225px;
+  margin-top: 10px;
+  margin-right: 12px;
+  font-size: x-small;
+  display: inline-block;
+  vertical-align: top;
+  overflow:hidden;
+}
+
+.body-r2c3{
+  width: 298px;
+  height: 225px;
+  margin-top: 10px;
+  font-size: x-small;
+  display: inline-block;
+  vertical-align: top;
+  overflow:hidden;
+}
+
+p.subtext3{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+p.softlink{
+    padding-top: 30px;
+    color: darkblue;
+    font-size: small;
+    font-weight: bold;
+}
+
+.speech-bubble {
+    background-color: lightsteelblue;
+    border: 1px solid lightsteelblue;
+    color: white;
+    font-style:italic;
+    font-family:sans-serif;
+    font-size: small;
+    width: 225px;
+    text-align: justify;
+    padding: 20px 52px 65px 22px;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: #lightsteelblue transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+.bottom:after {
+    border-color: lightsteelblue transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;
+}
+.attribution{
+    font-size: small;
+    font-weight: bold;
+    color:black;
+    margin-top: 160px;
+    position:bottom;
+    vertical-align: bottom;
+}
+
+.footer{
+  height: 25px;
+  padding-top: 10px;
+  background-color: lightsteelblue;
+  margin-bottom: 5px;
+  font-size: x-small;
+  color: darkblue;
+  overflow:hidden;
+  text-align: center;
+}
+
+.gray-rule{
+  background: gray;
+  height:2px;
+}
+
+ul.footer-nav{
+  width: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+li.center-nav{
+    display: inline;
+    width: 30px;
+    vertical-align: text-bottom;
+}

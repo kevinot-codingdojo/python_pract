@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Fancy Array</h2>
+
+
+
+<p id="demo"></p>
+
+<script>
+var names, text, nLen, order, i;
+
+names = ["James", 'Jill', 'Jane', 'Jack'];
+nLen = names.length;
+text = "<p>";
+order = 0
+for (i = 0; i < nLen; i++) {
+    text += "<p>" + order + names[i] + "</p>";
+}
+text += "</p>";
+document.getElementById("demo").innerHTML = text;
+</script>
+
+</body>
+</html>
